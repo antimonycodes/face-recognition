@@ -95,7 +95,8 @@ const Capture = () => {
   return (
     <div className="myapp">
       <h1>Face Detection</h1>
-      <div className="appvide" style={{ position: "relative" }}>
+      <p>detecting...</p>
+      <div className="appvidee" style={{ position: "relative" }}>
         {/* Ensure the video fills its container */}
         <video
           crossOrigin="anonymous"
